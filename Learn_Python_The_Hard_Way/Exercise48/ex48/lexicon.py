@@ -16,16 +16,16 @@ def scan(param):
 	
 	for s in params:
 		#Append the "direction" tuple.
-		if s in DIRECTIONS:
+		if s.lower() in DIRECTIONS:
 			results_list.append(('direction', s))
 		#Append the "verb" tuple.
-		elif s in VERBS:
+		elif s.lower() in VERBS:
 			results_list.append(('verb', s))
 		#Append the "stop" tuple.
-		elif s in STOPS:
+		elif s.lower() in STOPS:
 			results_list.append(('stop', s))
 		#Append the "noun" tuple.
-		elif s in NOUNS:
+		elif s.lower() in NOUNS:
 			results_list.append(('noun', s))
 		#Append the "number" tuple.
 		elif s.isdigit():
