@@ -1,0 +1,23 @@
+application: thisapp
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  script: index.app
+
+- url: /index\.html
+  script: index.app
+
+- url: /(.*\.(gif|png|jpg))$
+  static_files: static/\1
+  upload: static/.*\.(gif|png|jpg)$
+
+- url: /webmaster/.*
+  script: webmaster.app
+  login: webmaster
+
+- url: /.*
+  script: not_found.app

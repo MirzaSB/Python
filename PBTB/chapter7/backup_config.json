@@ -1,0 +1,9 @@
+{
+    "backup_day_limit": 21,
+    "newkey": 5.0005,
+    "temp_backup_dir": "/mnt/alpha/db_backups/temp",
+    "tarfile_match_pattern": "\\d\\d\\d\\d-\\d\\d-\\d\\d\\_fiba\\.tars$",
+    "backup_retrieval_dir": "/mnt/alpha/db_backups/backup_retrieval",
+    "read_db": "mysql_managed_db",
+    "backup_dir": "/mnt/alpha/db_backups"
+}
