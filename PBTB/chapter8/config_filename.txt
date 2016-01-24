@@ -1,0 +1,5 @@
+a=1
+b=2
+c=3
+value_with_equal_sign=test=equal
+new_key=new_value

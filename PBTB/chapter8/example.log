@@ -1,0 +1,5 @@
+INFO:root:This should be logged.
+WARNING:root:And this, too
+01/22/2016 05:58:47 PM DEBUG:This message will be ignored.
+01/22/2016 05:58:47 PM INFO:This should be logged.
+01/22/2016 05:58:47 PM WARNING:And this, too
