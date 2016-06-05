@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Hi (from Index template), {{ user.nickname }}!</h1>
+    {% for post in posts %}
+    <div><p>{{post.author.nickname}} says: <b>{{post.body}}</b> (from Index template)</p></div>
+    {% endfor %}
+{% endblock %}
