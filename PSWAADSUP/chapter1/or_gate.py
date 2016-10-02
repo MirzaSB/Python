@@ -5,6 +5,7 @@ class OrGate(BinaryGate):
 
     def __init__(self, n):
         super(OrGate, self).__init__(n)
+        self.gate_type = "OR"
 
     def perform_gate_logic(self):
         a = self.get_pin_a()
@@ -15,6 +16,6 @@ class OrGate(BinaryGate):
             return 0
 
 
-g1 = OrGate("G1")
-computed_value = g1.get_output()
-print("The OR calculated value is %d." % computed_value)
+#g1 = OrGate("G1")
+#computed_value = g1.get_output()
+#print("The OR calculated value is %d." % computed_value)
