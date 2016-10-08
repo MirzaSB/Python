@@ -1,2 +1,2 @@
 # Python
-Python Workspace
+Python Workspace for multiple projects
